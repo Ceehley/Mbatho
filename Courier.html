@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logistics</title>
+    <link rel="icon" type="image/png" href="pics/icon cleaner.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+
+<body>
+    <div id="header">
+        <span class="material-symbols-outlined menu-icon" onclick="toggleMenu()">menu</span>
+        <img src="pics/safety & security service2s.png" height="90px " />
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="menu">
+                    <hr>
+                </div>
+                <a href="index.html" class="menu-link">Home</a>
+                <hr>
+                <a href="security.html" class="menu-link">Security Services</a>
+                <hr>
+                <a href="trailers.html" class="menu-link">Trailers</a>
+                <hr>
+                <a href="Courier.html" class="menu-link">Courier Services</a>
+                <hr>
+                <a href="Other.html" class="menu-link">Other Services</a>
+                <hr>
+                <a href="contac.html" class="menu-link">Contact Us</a>
+                <hr>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="headline">
+        <h1>From anywhere, to everywhere </h1>
+        <h3> We Offer</h3>
+    </div>
+
+    <div id="trailers">
+
+        <a class="trailer">
+            <img src="pics/van.jpeg" />
+            <h3>Local Deliveries</h3>
+            <p>Local deliveries range from small to large packages</p>
+        </a>
+        <a class="trailer">
+            <img src="pics/Courier.jpeg" />
+            <h3>City to City</h3>
+            <p>City to city deliveries </p>
+        </a>
+        <a class="trailer">
+            <img src="pics/long.jpg" />
+            <h3>Long Distance</h3>
+            <p>Long distance deliveries across the country</p>
+        </a>
+        <a class="trailer">
+            <img src="pics/van 3.jpeg" />
+            <h3>Events & Functions</h3>
+            <p>Event and function logistics and transportation</p>
+        </a>
+
+    </div>
+
+
+    <div id="tabs-bottom">
+        <about>
+            <h3>About us</h3>
+            <p>A family owned company operating sinse 2015. Active in multiple provinces including Gauteng, Mpumalanga
+                and Limpopo.
+
+            </p>
+        </about>
+        <services>
+            <h3>
+                <ul>Our Services</ul>
+            </h3>
+            <li>Trailers</li>
+            <li>Diesel bowers</li>
+            <li>Cargo trailers</li>
+            <li>Light trailers</li>
+            <li>Water pump trailer</li>
+            <li>Courier services</li>
+
+        </services>
+        <contact>
+            <h3>
+                <ul>Contact us</ul>
+            </h3>
+
+            <li><img src="pics/phone icon.png" height="15px"> Phone:<phone>075 295 2895<br>
+                    <phone2>060 884 6142</phone2>
+                </phone>
+            </li>
+            <li><img src="pics/email icon.png">Email: mbathoph@gmail.com </li>
+            <li><img src="pics/address icon.png">Address: 29 Roos Street<br>
+                <address2>Klipoortjie Germiston </address2>
+            </li>
+        </contact>
+
+        <img src="pics/Group B.png">
+
+
+    </div>
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+        }
+
+    </script>
+</body>
+
+</html>
