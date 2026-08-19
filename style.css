@@ -852,4 +852,7 @@ video.displaySlide {
     .sec3{
        bottom: 550px; 
     }
+    .menu-link{
+        height: 1.7em;
+    }
 }
