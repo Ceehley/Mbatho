@@ -513,17 +513,23 @@ body {
     
 }
 
-.sec img{
+.sec-img{
     position: relative;
 
     z-index: 2;
     width: 100%;
+    overflow: hidden;
 
+}
+.sec-img2{
+
+    
+    display: none;
 }
 
 .sec3{
     position: relative;
-    bottom: 800px;
+    bottom: 500px;
     z-index: 3;
     background-color: #00008b70;
     border-radius: 15px;
@@ -539,6 +545,7 @@ body {
     padding: 15px;
     border-style: outset;
 }
+
 
 
 
@@ -831,5 +838,18 @@ video.displaySlide {
     }
     .sub-menu{
         height: 300px;
+    }
+        .sec-img{
+        display: none;
+    }
+    .sec-img2{
+        position: relative;
+        top: 25px;
+        display: block;
+        z-index: 2;
+        max-width: 90%;
+    }
+    .sec3{
+       bottom: 550px; 
     }
 }
