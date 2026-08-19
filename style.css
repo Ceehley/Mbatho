@@ -2,7 +2,7 @@
     z-index: 5;
     max-height: 90px;
     margin: 0px;
-    width: 100%;
+    min-width: 100%;
     position: sticky;
     top: 0px;
     overflow: visible;
@@ -825,5 +825,11 @@ video.displaySlide {
 
     .other-serv img {
         display: none;
+    }
+    .slider{
+        width: 100%;
+    }
+    .sub-menu{
+        height: 300px;
     }
 }
