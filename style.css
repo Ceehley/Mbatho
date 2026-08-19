@@ -836,10 +836,10 @@ video.displaySlide {
     .slider{
         width: 100%;
     }
-    .sub-menu{
+    .sb-menu{
         height: 300px;
     }
-        .sec-img{
+    .sec-img{
         display: none;
     }
     .sec-img2{
@@ -849,9 +849,7 @@ video.displaySlide {
         z-index: 2;
         max-width: 90%;
     }
-    .sec3{
-       bottom: 550px; 
-    }
+    
     .menu-link{
         height: 1.7em;
     }
