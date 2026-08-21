@@ -6,7 +6,7 @@
     position: sticky;
     top: 0px;
     overflow: visible;
-    background: linear-gradient(to right, white 40%, #2f7099);
+    background: linear-gradient(to right, white, #2f7099);
 }
 
 #header img {
@@ -822,6 +822,9 @@ video.displaySlide {
 
 
 @media (max-width:760px) {
+    #header{
+        background: linear-gradient(to right, white 40%, #2f7099);
+    }
     .filler img {
         display: none;
     }
