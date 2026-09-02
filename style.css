@@ -820,6 +820,28 @@ video.displaySlide {
     display: block;
 }
 
+#chatbox {
+    width: 100px;
+    background-color: #25D366;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 15px;
+    position: sticky;
+    bottom: 20px;
+    z-index: 4;    
+}
+
+#chatbox .fa-whatsapp.fa-5x{
+    color: #ffffff;
+}
+
+#chatbox:hover{
+    background-color: #257c45;
+}
+
+
 
 @media (max-width:760px) {
     #header{
