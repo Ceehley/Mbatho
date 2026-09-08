@@ -819,6 +819,41 @@ video.displaySlide {
     margin: auto;
     display: block;
 }
+.pricelist {
+    background: linear-gradient(to bottom right, #2f7099, #ffffff 20% 80%, #2f7099 );
+    color: #2f7099;
+    max-width: 85%;
+    margin: auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    width: 100%;
+    
+}
+
+.pricetable h3{
+    font-size: 2em;
+}
+.pricetable th{
+        font-size: 1.5em;
+        width: 25%;
+}
+.pricetable p{
+        font-size: 1.5em;
+        font-weight: 700;
+}
+
+
+.pricetable{
+    padding-left: 10px;
+    background-color: #74727270;
+    border-radius: 15px;
+    width: 75%;
+    margin-top: -25px;
+    
+}
+
 
 #chatbox {
     width: 100px;
@@ -877,5 +912,11 @@ video.displaySlide {
     
     .menu-link{
         height: 1.7em;
+    }
+    .pricelist{
+        width: 100%;
+    }
+    .pricetable{
+        width: 90%;
     }
 }
