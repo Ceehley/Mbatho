@@ -659,10 +659,10 @@ contact ul {
     font-family: sans-serif;
     color: white;
     border-radius: 15px;
-    width: 500px;
+    width: 470px;
     text-align: center;
     display: inline-block;
-    margin: 20px;
+    margin: 20px 0;
     padding: 15px;
 }
 
