@@ -648,6 +648,29 @@ contact ul {
     margin-right: 0;
 }
 
+last{
+    display: inline-block;
+    max-width: 55%;
+}
+
+last p {
+    text-align: center;
+    color: #00008b;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: smaller;
+}
+last hr {
+    border: 1px solid;
+    color: white;
+    width: 100%;
+
+}
+last img {
+    position: relative;
+    left: 20%;   
+}
+
 
 
 #trailers {
